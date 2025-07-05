@@ -78,8 +78,9 @@ Top 10 Authors in Largest Community: ['Kai Lei', 'Fangxing Zhu', 'Cheng Peng', '
 
 ### Paper-Paper Clustering via Embedding 
 - Embed the abstract and title of each paper using a fitting embedding model such BERTopic or SentenceBERT, and aggregate them together. 
-- 
-<div style="text-align: center;">
-    <img src="2.png" alt="Alt Text" width="400">
-</div>
+
+<p align="center">
+    <img src="2.png" alt="Descriptive Alt Text" class="fit-width-image">
+</p>
+
 
