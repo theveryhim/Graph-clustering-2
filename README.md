@@ -5,9 +5,9 @@
 - Co-authorship Network (Author-Author Network)
 - Venue Network (Conference-Journal Network)
 - Temporal Evolution of the Citation Network
-<div style="text-align: center;">
-    <img src="venue.gif" alt="Alt Text" width="500">
-</div>
+<p align="center">
+    <img src="venue.gif" alt="Descriptive Alt Text" class="fit-width-image">
+</p>
 
 ## Data Extrapolation via Clustering
 ### Community Detection
@@ -18,20 +18,6 @@ Top 10 Authors in Largest Community: ['Kai Lei', 'Fangxing Zhu', 'Cheng Peng', '
 ### Naming the Communities
 - Use KeyBERT for extracting keywords from each abstract/title and aggregate them together to form a single list of words as keywords for each paper. 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
